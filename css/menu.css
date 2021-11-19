@@ -1,0 +1,727 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #03080D;
+}
+
+#header{
+    position: relative;
+}
+
+.list-menu{
+    width: 100%;
+    height: 100px;
+    background: #03080D;
+    position: fixed;
+    z-index: 4;
+
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    position: fixed;
+    z-index: 5;
+}
+
+.list{
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    clear: both;
+
+}
+
+li{
+    color: #F2F2F2;
+    float: right;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 55px;
+    width: auto;
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 14px;
+
+}
+
+li a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+p{
+    color: #F2F2F2;
+}
+
+h2{
+    font-size: 35px;
+    color: #F2F2F2;
+    border-bottom: solid 2px #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+}
+
+.food{
+    width: 100%;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    font-family: Baskerville,sans-serif,serif;
+    font-weight: lighter;
+}
+
+.white1{
+    width: 900px;
+    height: 2100px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+    margin: 0 18%;
+}
+
+.index1{
+    width: 100%;
+    text-align: center;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+    color: #000000;
+    position: absolute;
+    top: 420px;
+}
+
+.Q{
+    font-size: 14px;
+}
+
+.caution{
+    width: 100%;
+    text-align: center;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 10px;
+    color: #000000;
+    position: absolute;
+    top: 480px;
+}
+
+.meat{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 259px;
+}
+
+.lie{
+    width: 212px;
+    height: auto;
+    font-family: Baskerville,sans-serif,serif;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 15px 13%;
+}
+
+.lieimg{
+    border: 1px solid #707070;
+    margin-left: 13%;
+    float: left;
+}
+
+.lietext{
+    color: #0B0B0B;
+    font-size: 16px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    letter-spacing: 0.2em;
+
+}
+
+.price{
+    color: #0B0B0B;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+.explanation{
+    margin: 40px 0 0 480px ;
+}
+
+.pasta{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 259px;
+}
+
+.omu{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 1200px;
+    left: 259px;
+}
+
+.curry{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 1500px;
+    left: 259px;
+
+}
+
+.sand{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 1800px;
+    left: 259px;
+}
+
+
+/*デザート*/
+.dessart{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 2100px;
+    left: 259px;
+}
+
+.dessartmenu{
+    width: 100%;
+    text-align: center;
+    color: #0B0B0B;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+}
+
+.dessart1{
+    margin: 0 10% 50px 13%;
+
+}
+
+.dessartmenu1{
+    width: auto;
+    color: #0B0B0B;
+    font-size: 18px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.dessartprice{
+    width: auto;
+    text-align: right;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.brank1{
+    width: 580px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 135px;
+    left: 180px;
+}
+
+.brank2{
+    width: 510px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 215px;
+    left: 255px;
+}
+
+.brank3{
+    width: 510px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 298px;
+    left: 255px;
+}
+
+.white2{
+    width: 900px;
+    height: 1830px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 2700px;
+    margin: 0 18%;
+}
+
+
+/*コーヒーメニュー*/
+.coffee{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 2750px;
+    left: 259px;
+}
+
+.coffeemenu{
+    width: 100%;
+    text-align: center;
+    color: #0B0B0B;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+}
+
+.coffee1{
+    margin: 0 10% 50px 13%;
+
+}
+
+.coffeemenu1{
+    width: auto;
+    color: #0B0B0B;
+    font-size: 18px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.coffeeprice{
+    width: auto;
+    text-align: right;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.brank4{
+    width: 425px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 135px;
+    left: 335px;
+}
+
+.brank5{
+    width: 545px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 215px;
+    left: 215px;
+}
+
+.brank6{
+    width: 480px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 298px;
+    left: 285px;
+}
+
+.brank7{
+    width: 550px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 380px;
+    left: 210px;
+}
+
+/*茶*/
+
+.tea{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 3300px;
+    left: 259px;
+}
+
+.teamenu{
+    width: 100%;
+    text-align: center;
+    color: #0B0B0B;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+}
+
+.tea1{
+    margin: 0 10% 50px 13%;
+
+}
+
+.teamenu1{
+    width: auto;
+    color: #0B0B0B;
+    font-size: 18px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.teaprice{
+    width: auto;
+    text-align: right;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.brank8{
+    width: 601px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 135px;
+    left: 160px;
+}
+
+.brank9{
+    width: 530px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 216px;
+    left: 230px;
+}
+
+.brank10{
+    width: 460px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 298px;
+    left: 303px;
+}
+
+.brank11{
+    width: 538px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 381px;
+    left: 229px;
+}
+
+.brank12{
+    width: 565px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 464px;
+    left: 195px;
+}
+
+.brank13{
+    width: 602px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 545px;
+    left: 160px;
+}
+
+
+/*ソフトドリンク*/
+.drink{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 4050px;
+    left: 259px;
+}
+
+.drinkmenu{
+    width: 100%;
+    text-align: center;
+    color: #0B0B0B;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+}
+
+.drink1{
+    margin: 0 10% 50px 13%;
+
+}
+
+.drinkmenu1{
+    width: auto;
+    color: #0B0B0B;
+    font-size: 18px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.drinkprice{
+    width: auto;
+    text-align: right;
+    color: #0B0B0B;
+    font-size: 16px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.brank14{
+    width: 586px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 135px;
+    left: 175px;
+}
+
+.brank15{
+    width: 570px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 216px;
+    left: 195px;
+}
+
+.brank16{
+    width: 496px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 298px;
+    left: 265px;
+}
+
+.brank17{
+    width: 497px;
+    height: 70px;
+    background-image : linear-gradient(to right, #000, #000 9px, transparent 2px, transparent 8px);  
+    background-size: 15px 1px;          
+    background-position: left top;  
+    background-repeat: repeat-x;   
+    position: absolute;
+    top: 381px;
+    left: 265px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #594C47;
+    position: absolute;
+    top:4900px;
+    margin: 0;
+}
+
+.Fcontainer{
+    padding-top: 20px;
+}
+
+table{
+    border-bottom: solid 1px #707070;
+    margin: 10px 30%;
+    color: #F2F2F2;
+}
+
+.Ftitle{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 200px;
+    height: 50px;
+    vertical-align: top;
+}
+
+table th{
+    font-size: 16px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.Fmenu{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+td{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 16px;
+}
+
+.Finfo1{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.Finfo2{
+    width: 398px;
+    height: 80px;
+    vertical-align: top;
+
+}
+
+.Finfo3{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo4{
+    width: 398px;
+    height: 30px;
+    vertical-align: top;
+
+}
+
+.Finfo5{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo6{
+    width: 398px;
+    height: 60px;
+    vertical-align: top;
+
+}
+
+.Finfo7{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+
+}
+
+.Finfo8{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo9{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo10{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+
+
+.Fmenu a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+.Ftitle a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Ftitle a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+

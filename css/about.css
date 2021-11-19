@@ -1,0 +1,410 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #03080D;
+}
+
+#header{
+    position: relative;
+}
+
+.list-menu{
+    width: 100%;
+    height: 100px;
+    background: #03080D;
+    position: fixed;
+    z-index: 4;
+
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    position: fixed;
+    z-index: 5;
+}
+
+.list{
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    clear: both;
+
+}
+
+li{
+    color: #F2F2F2;
+    float: right;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 55px;
+    width: auto;
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 14px;
+
+}
+
+li a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+p{
+    color: #F2F2F2;
+}
+
+h2{
+    font-size: 35px;
+    color: #F2F2F2;
+    border-bottom: solid 2px #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+}
+
+.M{
+    width: 100%;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 30px;
+    position: absolute;
+    top: 225px;
+    font-family: Baskerville,sans-serif,serif;
+    font-weight: lighter;
+}
+
+.message{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 370px;
+    margin: 0 15%;
+}
+
+.massageH{
+    color: #F2F2F2;
+    float: left;
+    font-size: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 180px;
+    letter-spacing: 0.2em;
+    z-index: 3;
+    background: -webkit-linear-gradient(bottom, #8A7460, #CAC0B7,#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Mtext{
+    margin-top: 180px;
+    margin-left: 10px;
+    line-height: 5em;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.brank1{
+    width: 820px;
+    height: 430px;
+    position: absolute;
+    border: solid 1px #7C7C7C;
+    top: 150px;
+    left: -250px;
+    z-index: 2;
+
+}
+
+.messageimg{
+    position: absolute;
+    left: 550px;
+    z-index: 1;
+}
+
+.interia{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1200px;
+}
+
+.interia1{
+    margin-left: 180px;
+}
+
+.interia2{
+    margin-left: 780px;
+}
+
+.interia3{
+    margin-left: 250px;
+}
+
+
+.C{
+    width: 100%;
+    position: absolute;
+    top: 2920px;
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}
+
+.concept{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3050px;
+}
+
+.conceptH{
+    color: #F2F2F2;
+    float: right;
+    font-size: 33px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 720px;
+    letter-spacing: 0.2em;
+    z-index: 3;
+    background: -webkit-linear-gradient(bottom, #8A7460, #CAC0B7,#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conceptimg{
+    position: absolute;
+    left: 330px;
+    z-index: 1;
+}
+
+.Ctext{
+    position: absolute;
+    left: 770px;
+    line-height: 2.5em;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    color: #F2F2F2;
+    margin-top: 155px;
+}
+
+.brank2{
+    width: 765px;
+    height: 100px;
+    border: solid 1px #7C7C7C;
+    position: absolute;
+    left: 670px;
+    z-index: 2;
+    margin-top: 130px;
+}
+
+.enjoy{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3500px;
+}
+
+.enjoyH{
+    font-size: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    margin-top: 130px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 430px;
+    letter-spacing: 0.2em;
+    z-index: 3;
+    background: -webkit-linear-gradient(bottom, #8A7460, #CAC0B7,#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.enjoytext{
+    margin-top: 280px;
+    margin-left: 10px;
+    line-height: 3.5em;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 0.25em;
+}
+
+.enjoyimg{
+    position: absolute;
+    left: 780px;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.brank3{
+    width: 820px;
+    height: 280px;
+    position: absolute;
+    border: solid 1px #7C7C7C;
+    top: 250px;
+    left: -25px;
+    z-index: 2;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #594C47;
+    position: absolute;
+    top:4400px;
+    margin: 0;
+}
+
+.Fcontainer{
+    padding-top: 20px;
+}
+
+table{
+    border-bottom: solid 1px #707070;
+    margin: 10px 30%;
+    color: #F2F2F2;
+}
+
+.Ftitle{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 200px;
+    height: 50px;
+    vertical-align: top;
+}
+
+table th{
+    font-size: 16px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.Fmenu{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+td{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 16px;
+}
+
+.Finfo1{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.Finfo2{
+    width: 398px;
+    height: 80px;
+    vertical-align: top;
+
+}
+
+.Finfo3{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo4{
+    width: 398px;
+    height: 30px;
+    vertical-align: top;
+
+}
+
+.Finfo5{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo6{
+    width: 398px;
+    height: 60px;
+    vertical-align: top;
+
+}
+
+.Finfo7{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+
+}
+
+.Finfo8{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo9{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo10{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+
+
+.Fmenu a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+.Ftitle a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Ftitle a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}

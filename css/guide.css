@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #03080D;
+}
+
+#header{
+    position: relative;
+}
+
+.list-menu{
+    width: 100%;
+    height: 100px;
+    background: #03080D;
+    position: fixed;
+    z-index: 1;
+
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    position: fixed;
+    z-index: 2;
+}
+
+.list{
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    clear: both;
+
+}
+
+li{
+    color: #F2F2F2;
+    float: right;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 55px;
+    width: auto;
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 14px;
+
+}
+
+li a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: #F2F2F2;
+}
+
+li a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+h2{
+    font-size: 35px;
+    color: #F2F2F2;
+    border-bottom: solid 2px #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+
+}
+
+.guidetext{
+    color: #F2F2F2;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 14px;
+    line-height: 2.5em;
+    letter-spacing: 0.3em;
+}
+
+.guideWrap1{
+    width: auto;
+    height: 380px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    clear: both;
+}
+
+.guideWrap2{
+    width: auto;
+    height: 380px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    clear: both;
+}
+
+.guideWrap3{
+    width: auto;
+    height: 380px;
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+    clear: both;
+}
+
+.steplogo{
+    padding-left: 40px;
+}
+
+.guideImg{
+    padding-left: 15px;
+}
+
+.seat{
+    width: 100%;
+    font-size: 30px;
+    color: #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 850px;
+    text-align:center;
+}
+
+.sub{
+    color: #F2F2F2;
+    font-size: 16px;
+}
+
+.sub{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+
+}
+
+.seat1{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+}
+
+.seatImg1{
+    float: left;
+    margin: 0;
+}
+
+
+.seattext1{
+    width: 630px;
+    height: 80px;
+    background: #FFFFFF;
+    color: #03080D;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 540px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.seat2{
+    width: 1300px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 1700px;
+}
+
+.seatImg2{
+    float: right;
+}
+
+
+.seattext2{
+    width: 620px;
+    height: 80px;
+    background: #FFFFFF;
+    color: #03080D;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: right;
+    margin-right: 540px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+
+
+
+.seat3{
+    width: 950px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: 2400px;
+}
+
+.seatImg3{
+    float: left;
+}
+
+
+.seattext3{
+    width: 630px;
+    height: 80px;
+    background: #FFFFFF;
+    color: #03080D;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 540px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.special{
+    width: 100%;
+    position: absolute;
+    top: 2850px;
+    color: #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.anniversary{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 2970px;
+    margin: 0 15%;
+    background: #F2F2F2;
+    padding: 30px;
+}
+
+.ANimg{
+    margin: 0;
+    float: left;
+}
+
+
+h4{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 25px;
+    padding-left: 570px;
+    padding-top: 40px;
+}
+
+
+.spiare{
+    font-family: Baskerville,sans-serif,serif;
+}
+
+.ANtext{
+    font-size: 16px;
+    padding-left: 570px;
+    line-height: 1.7em;
+    letter-spacing: 0.3em;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.move{
+    font-size: 16px;
+    padding-left: 860px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #594C47;
+    position: absolute;
+    top:3700px;
+    margin: 0;
+}
+
+.Fcontainer{
+    padding-top: 20px;
+}
+
+table{
+    border-bottom: solid 1px #707070;
+    margin: 10px 30%;
+    color: #F2F2F2;
+}
+
+#Ftitle{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 200px;
+    height: 50px;
+    vertical-align: top;
+}
+
+table th{
+    font-size: 16px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.Fmenu{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+td{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 16px;
+}
+
+.Finfo1{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.Finfo2{
+    width: 398px;
+    height: 80px;
+    vertical-align: top;
+
+}
+
+.Finfo3{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo4{
+    width: 398px;
+    height: 30px;
+    vertical-align: top;
+
+}
+
+.Finfo5{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo6{
+    width: 398px;
+    height: 60px;
+    vertical-align: top;
+
+}
+
+.Finfo7{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+
+}
+
+.Finfo8{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo9{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo10{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+
+
+.Fmenu a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+.Ftitle a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Ftitle a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}

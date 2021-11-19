@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/ossan1.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    width: 250px;
+    height: auto;
+    background: black;
+}
+
+.nav{
+    width: 270px;
+    height: 100vh;
+    background: #03080D;
+}
+
+.nav01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 380px;
+}
+
+li{
+    margin-top: 40px;
+    font-family: Baskerville,sans-serif,serif;
+}
+
+.gnavi{
+    display: flex;
+    flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
+    list-style: none;
+}
+
+.gnavi li a{
+    display: block;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+/*==================================================
+　5-3-3 左から右に線が伸びる（下部）
+===================================*/
+.gnavi li a{
+    /*線の基点とするためrelativeを指定*/
+	position: relative;
+}
+
+.gnavi li a,
+.gnavi li a:hover{
+	color:#fff;
+}
+
+.gnavi li a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    /*線の形状*/
+    width: 80%;
+    height: 2px;
+    background:#fff;
+    /*アニメーションの指定*/
+    transition: all .2s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: left top;/*左上基点*/
+}
+
+/*現在地とhoverの設定*/
+.gnavi li.current a::after,
+.gnavi li a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}

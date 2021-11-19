@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reservation.css" rel="stylesheet">
+    <title>spiare-cafe</title>
+</head>
+<body>
+    <div id="header">
+        <h1>
+            <a href="index.html"><img src="images/logo05.svg" alt="spiare cafe" width="333" height="70"></a>
+        </h1>
+        <div class="list-menu">
+            <ul class="list">
+                <li><a href="access.html">ACCESS</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="guide.html">GUIDE</a></li>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>RESERVATION</h2>
+
+    <form action="reservation-confirmation.html" method="POST">
+        <table class="customerinfo">
+            <tr>
+                <th class="customerinfo1">氏名</th>
+                <td><input type="text" value="" class="customerinfo2"></td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">ふりがな</th>
+                <td><input type="text" value="" class="customerinfo2"></td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">人数</th>
+                <td><input type="text" value="" class="customerinfo3">人</td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">座席選択</th>
+                <td>
+                    <select name="roomselect">
+                        <option value="" selected=""></option>
+                        <option value="sinnyuu">侵入</option>
+                        <option value="ansatu">暗殺</option>
+                        <option value="jouhou">情報</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">電話番号</th>
+                <td><input type="text" value="" class="customerinfo2"></td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">メニュー選択</th>
+                <td>
+                    <select name="choice1">
+                        <option value="" selected="">FOOD MENU</option>
+                        <option value="hanba-gu">ハンバーグ</option>
+                        <option value="naporitan">ナポリタン</option>
+                        <option value="omuraisu">オムライス</option>
+                        <option value="curry">カレー</option>
+                        <option value="katusando">カツサンド</option>
+                    </select>
+                    <select name="choice2">
+                        <option value="" selected="">DRINK MENU</option>
+                        <option value="ko-hi-">コーヒー(アイスorホット)</option>
+                        <option value="kaferate">カフェラテ</option>
+                        <option value="amerikan">アメリカンコーヒー</option>
+                        <option value="kafeore">カフェオレ</option>
+                        <option value="koucha">紅茶</option>
+                        <option value="remonteli-">レモンティー</option>
+                        <option value="roiarumirukuteli-">ロイヤルミルクティー</option>
+                        <option value="aisuteli-">アイスティー</option>
+                        <option value="houjicha">ほうじ茶</option>
+                        <option value="maccha">抹茶</option>
+                        <option value="ko-ra">コーラ</option>
+                        <option value="karupisu">カルピス</option>
+                        <option value="orenjiju-su">オレンジジュース</option>
+                        <option value="appleju-su">アップルジュース</option>
+                    </select>
+
+                    <select name="choice3">
+                        <option value="" selected="">DESSERT MENU</option>
+                        <option value="purin">プリン</option>
+                        <option value="ko-hi-zeri-">コーヒーゼリー</option>
+                        <option value="softkuri-mu">ソフトクリーム</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th class="customerinfo1">備考</th>
+                <td><textarea name="comment" class="customerinfo4"></textarea></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit" value="予約" class="reserve-button">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+    <div class="footer">
+        <div class="Fcontainer">
+            <table class="footerlist">
+                <tr>
+                    <th id="Ftitle"><a href="index.html">spiare cafe</a></th>
+                    <td class="Fmenu"><a href="index.html">HOME</a></td>
+                    <td class="Fmenu"><a href="guide.html">GUIDE</a></td>
+                    <td class="Fmenu"><a href="about.html">ABOUT</a></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td class="Fmenu"><a href="menu.html">MENU</a></td>
+                    <td class="Fmenu"><a href="reservation.html">RESERVATION</a></td>
+                    <td class="Fmenu"><a href="access.html">ACCESS</a></td>
+                </tr>
+            </table>
+            <table class="footerlist">
+                <tr>
+                    <th class="Finfo1">住所</th>
+                    <td class="Finfo2">〒530-0015<br>
+                        大阪市北区中崎西2丁目3番35号</td>
+                </tr>
+            </table>
+            <table class="footerlist">
+                <tr>
+                    <th class="Finfo3">電話番号</th>
+                    <td class="Finfo4">123-4567-8901</td>
+                </tr>
+            </table>
+            <table class="footerlist">
+                <tr>
+                    <th class="Finfo5">営業</th>
+                    <td class="Finfo6">12時〜20時<br>
+                        ※火曜日は定休日</td>
+                </tr>
+            </table>
+            <table class="footerlist">
+                <tr>
+                    <th class="Finfo7">Twitter</th>
+                    <td class="Finfo8">spiare_cafe</td>
+                </tr>
+                <tr>
+                    <th class="Finfo9">Instagram</th>
+                    <td class="Finfo10">spiare_cafe</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+</body>

@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #03080D;
+}
+
+#header{
+    position: relative;
+}
+
+.list-menu{
+    width: 100%;
+    height: 100px;
+    background: #03080D;
+    position: fixed;
+    z-index: 4;
+
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    position: fixed;
+    z-index: 5;
+}
+
+.list{
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    clear: both;
+
+}
+
+.menulist{
+    color: #F2F2F2;
+    float: right;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 55px;
+    width: auto;
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 14px;
+
+}
+
+li a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+p{
+    color: #F2F2F2;
+}
+
+h2{
+    font-size: 35px;
+    color: #F2F2F2;
+    border-bottom: solid 2px #F2F2F2;
+    font-family: Baskerville,sans-serif,serif;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+}
+
+.access{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    margin-left: 15.5%;
+}
+
+.road{
+    color: #F2F2F2;
+    margin-bottom: 25px;
+    letter-spacing: 0.2em;
+    list-style-type: square;
+    font-size: 16px;
+}
+
+.map{
+    position: absolute;
+    top: 620px;
+    margin-left: 17%;
+}
+
+.spiare-infomation{
+    height: 110px;
+}
+
+.spiare-info{
+    position: absolute;
+    top: 1400px;
+    margin-left: 33%;
+}
+
+.spiare-info1{
+    font-size: 18px;
+    color: #F2F2F2;
+    text-align: right;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.spiare-info2{
+    width: 150px;
+}
+
+.spiare-info3{
+    font-size: 16px;
+    color: #F2F2F2;
+    text-align: left;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #594C47;
+    position: absolute;
+    top: 2300px;
+    margin: 0;
+}
+
+.Fcontainer{
+    padding-top: 20px;
+}
+
+.footerlist{
+    border-bottom: solid 1px #707070;
+    margin: 10px 30%;
+    color: #F2F2F2;
+}
+
+#Ftitle{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 200px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.footerlist th{
+    font-size: 16px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+}
+
+.Fmenu{
+    font-family: Baskerville,sans-serif,serif;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+td{
+    font-family: "A-OTF 見出ミンMA1 Std",sans-serif,serif;
+    font-size: 16px;
+}
+
+.Finfo1{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.Finfo2{
+    width: 398px;
+    height: 80px;
+    vertical-align: top;
+
+}
+
+.Finfo3{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo4{
+    width: 398px;
+    height: 30px;
+    vertical-align: top;
+
+}
+
+.Finfo5{
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+
+}
+
+.Finfo6{
+    width: 398px;
+    height: 60px;
+    vertical-align: top;
+
+}
+
+.Finfo7{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+
+}
+
+.Finfo8{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo9{
+    width: 150px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Finfo10{
+    width: 398px;
+    height: 40px;
+    vertical-align: top;
+
+}
+
+.Fmenu a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.Fmenu a:hover{
+    border-bottom:solid 1px #F2F2F2;
+}
+
+#Ftitle a:link{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+#Ftitle a:visited{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
